@@ -1,0 +1,64 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://www.hibox.co/wp-content/uploads/2018/03/tasks-progress-400x400.png);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03cbcbd3;
+    border-style: double;
+    border-radius: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.title {
+    display: flex;
+    font-family: 'Fruktur', cursive;
+}
+
+.line {
+    width: 20rem;
+}
+
+.job {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sirin Stencil', cursive;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sirin Stencil', cursive;
+}
+
+.bar {
+    display: flex;
+}
+
+#button {
+    border-radius: 0.5rem;
+    background-color: #f24d5eec;
+    font-family: 'Sirin Stencil', cursive;
+}
+
+#inputTask {
+    display: flex;
+    margin: 0.2rem;
+    padding: 0.1rem;
+}
